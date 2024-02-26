@@ -19,9 +19,10 @@ module.exports = merge(common, {
       patterns: [
       'src/.htaccess', 
       'src/iframe.html', 
-      'src/xdLocalStoragePostMessageApi.min.js'
+      'src/xdLocalStoragePostMessageApi.min.js',
+			{ from: 'src/schemas', to: 'schemas' },
+			{ from: 'src/images/logo/*', to: '[name][ext]' }
     ]}),
-    new WebpackNotifierPlugin({ alwaysNotify: true }),
     new webpack.NoEmitOnErrorsPlugin()
   ]
 });

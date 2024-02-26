@@ -1,3 +1,8 @@
+This repository serves an updated version of coriolis.io, forked from github.com/EDCD/coriolis.
+All changes made by anonymousemc are licenced under the public domain.
+
+## Original readme:
+
 [![Chat to us on Discord](https://img.shields.io/badge/Discord-EDCD%20%23coriolis-blue.svg?style=social)](https://discord.gg/0uwCh6R62aPRjk9w)
 
 ## About

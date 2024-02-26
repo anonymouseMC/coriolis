@@ -38,11 +38,11 @@ module.exports = {
     usedExports: true
   },
   output: {
-    path: path.join(__dirname, 'build'),
+    path: path.join(__dirname, `${process.env.OUTPUT}`),
     chunkFilename: '[name].bundle.js',
     // assetModuleFilename: '[contenthash][ext]',
     publicPath: '/',
-    clean: true // we already do rimraf on the build dir, but this should obviate that
+    clean: true
   },
   plugins: [
     // new webpack.optimize.CommonsChunkPlugin({
