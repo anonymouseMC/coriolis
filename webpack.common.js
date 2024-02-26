@@ -11,6 +11,9 @@ module.exports = {
     main: './src/app/index.js'
   },
   resolve: {
+		alias: {
+			"coriolis-data": path.resolve(__dirname, './data')
+		},
     // When requiring, you don't need to add these extensions
     extensions: ['.js', '.jsx', '.json', '.less'],
     fallback: {
